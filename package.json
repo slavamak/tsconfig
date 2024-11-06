@@ -1,0 +1,34 @@
+{
+  "name": "@slavamak/tsconfig",
+  "version": "1.0.0",
+  "description": "Shareable TSConfig configurations",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slavamak/tsconfig.git"
+  },
+  "homepage": "https://github.com/slavamak/tsconfig#readme",
+  "author": "Slava Maksimov <hello@slavamak.com> (https://slavamak.com)",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "javascript",
+    "node",
+    "remix"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "release": "bumpp && pnpm publish"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+  "devDependencies": {
+    "bumpp": "^9.8.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  }
+}
