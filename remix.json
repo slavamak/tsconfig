@@ -18,19 +18,11 @@
     "strict": true,
     "allowJs": true,
     "checkJs": true,
-    "baseUrl": ".",
     "paths": {
       "~/*": [
-        "./app/*"
+        "app/*"
       ]
     },
     "noEmit": true
-  },
-  "include": [
-    "**/*",
-    "**/.*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  }
 }
