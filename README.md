@@ -16,7 +16,18 @@ To use the TSConfig configurations, add the desired config to the `extends` prop
 
 ```json
 {
-  "extends": "@slavamak/tsconfig/base.json"
+  "extends": "@slavamak/tsconfig/remix.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "**/*",
+    "**/.*"
+  ],
+  "exclude": [
+    "build",
+    "node_modules"
+  ]
 }
 ```
 
