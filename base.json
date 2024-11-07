@@ -18,7 +18,6 @@
     "strict": true,
     "allowJs": true,
     "checkJs": true,
-    "baseUrl": ".",
     "noEmit": true,
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
