@@ -10,22 +10,27 @@ To use these configurations in your project, install the package via pnpm:
 pnpm add -D @slavamak/tsconfig
 ```
 
+## Requirements
+
+This package requires TypeScript version 5.5 or above. Make sure to have the appropriate version installed in your project.
+
 ## Usage
 
 To use the TSConfig configurations, add the desired config to the `extends` property in your `tsconfig.json` file:
 
 ```json
 {
-  "extends": "@slavamak/tsconfig/remix",
-  "compilerOptions": {
-    "baseUrl": "."
-  },
-  "include": [
-    "**/*",
-    "**/.*"
-  ],
-  "exclude": [
-    "build"
+  "extends": "@slavamak/tsconfig/remix.json"
+}
+```
+
+You can also extend from multiple configurations by providing an array to the extends property:
+
+```json
+{
+  "extends": [
+    "@slavamak/tsconfig/base.json",
+    "@tsconfig/deno/tsconfig.json"
   ]
 }
 ```
