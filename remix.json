@@ -18,11 +18,19 @@
     "strict": true,
     "allowJs": true,
     "checkJs": true,
+    "baseUrl": "${configDir}",
     "paths": {
       "~/*": [
         "app/*"
       ]
     },
     "noEmit": true
-  }
+  },
+  "include": [
+    "**/*",
+    "**/.*"
+  ],
+  "exclude": [
+    "build"
+  ]
 }
