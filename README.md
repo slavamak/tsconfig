@@ -24,7 +24,7 @@ To use the TSConfig configurations, add the desired config to the `extends` prop
 }
 ```
 
-You can also extend from multiple configurations by providing an array to the extends property:
+You can also extend from multiple configurations by providing an array to the `extends` property:
 
 ```json
 {
