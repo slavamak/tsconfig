@@ -40,6 +40,7 @@ You can also extend from multiple configurations by providing an array to the `e
 This package includes a variety of configurations to suit different project needs. You can extend from any of the following:
 
 - `base.json`: Basic configuration for TypeScript/JavaScript projects.
+- `svelte.json`: Configuration for Svelte applications.
 - `remix.json`: Configuration for Remix applications.
 
 ## License
